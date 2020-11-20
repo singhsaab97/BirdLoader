@@ -17,6 +17,8 @@
 		DE3D17BD256775AC0016EF18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE3D17BC256775AC0016EF18 /* Assets.xcassets */; };
 		DE3D17C0256775AC0016EF18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE3D17BE256775AC0016EF18 /* LaunchScreen.storyboard */; };
 		DE3D17C9256776690016EF18 /* BirdLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D17C8256776690016EF18 /* BirdLoader.swift */; };
+		DE3D17DA25677E140016EF18 /* BirdLoaderRight.gif in Resources */ = {isa = PBXBuildFile; fileRef = DE3D17D825677E130016EF18 /* BirdLoaderRight.gif */; };
+		DE3D17DB25677E140016EF18 /* BirdLoaderLeft.gif in Resources */ = {isa = PBXBuildFile; fileRef = DE3D17D925677E140016EF18 /* BirdLoaderLeft.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		DE3D17BF256775AC0016EF18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE3D17C1256775AC0016EF18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE3D17C8256776690016EF18 /* BirdLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdLoader.swift; sourceTree = "<group>"; };
+		DE3D17D825677E130016EF18 /* BirdLoaderRight.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = BirdLoaderRight.gif; sourceTree = "<group>"; };
+		DE3D17D925677E140016EF18 /* BirdLoaderLeft.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = BirdLoaderLeft.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,7 @@
 		DE3D17B2256775A90016EF18 /* BirdLoaderExamples */ = {
 			isa = PBXGroup;
 			children = (
+				DE3D17D725677E000016EF18 /* Gifs */,
 				DE3D17B3256775A90016EF18 /* AppDelegate.swift */,
 				DE3D17B5256775A90016EF18 /* SceneDelegate.swift */,
 				DE3D17B7256775A90016EF18 /* ViewController.swift */,
@@ -124,6 +129,15 @@
 				DE3D17C1256775AC0016EF18 /* Info.plist */,
 			);
 			path = BirdLoaderExamples;
+			sourceTree = "<group>";
+		};
+		DE3D17D725677E000016EF18 /* Gifs */ = {
+			isa = PBXGroup;
+			children = (
+				DE3D17D925677E140016EF18 /* BirdLoaderLeft.gif */,
+				DE3D17D825677E130016EF18 /* BirdLoaderRight.gif */,
+			);
+			path = Gifs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,6 +268,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE3D17C0256775AC0016EF18 /* LaunchScreen.storyboard in Resources */,
+				DE3D17DB25677E140016EF18 /* BirdLoaderLeft.gif in Resources */,
+				DE3D17DA25677E140016EF18 /* BirdLoaderRight.gif in Resources */,
 				DE3D17BD256775AC0016EF18 /* Assets.xcassets in Resources */,
 				DE3D17BB256775A90016EF18 /* Main.storyboard in Resources */,
 			);
