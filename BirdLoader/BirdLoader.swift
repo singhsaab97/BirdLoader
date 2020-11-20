@@ -274,3 +274,12 @@ extension BirdLoader: CAAnimationDelegate {
     }
     
 }
+
+// MARK: - Public APIs
+public extension BirdLoader {
+    
+    func stopLoading() {
+        removeFromSuperview()
+    }
+    
+}
